@@ -1,0 +1,24 @@
+{
+  "seo_title": "Menu bar LUFS loudness meter",
+  "seo_description": "Free, open-source macOS menu bar meter for LUFS and peak levels. Measure your microphone or system audio live against podcast, streaming or broadcast targets.",
+  "hero_title_line1": "Check your levels",
+  "hero_title_accent": "from the menu bar.",
+  "hero_sub": "LoudnessGlance shows live LUFS and peak levels of your microphone or system audio right in the menu bar. Click the icon to see the full meter and pick a loudness target.",
+  "features_title": "Loudness, without a plugin window.",
+  "features_sub": "Momentary, short-term and integrated loudness plus sample peak, measured locally and compared with the target you choose.",
+  "features": [
+    {"icon": "speaker", "title": "Momentary, short-term, integrated", "desc": "Read 400 ms, 3 s and since-reset loudness in LUFS. K-weighting is computed for your actual sample rate, with absolute and relative gating for integrated values."},
+    {"icon": "sliders", "title": "Podcast, streaming, broadcast targets", "desc": "Choose -16, -14 or -23 LUFS. The readout turns green, amber or red relative to the target, and a marker shows it on the meter."},
+    {"icon": "eye", "title": "Peak with hold marker", "desc": "A thin bar tracks sample peak in dBFS and keeps a hold tick so you can spot short spikes. Silence is shown as a dash."},
+    {"icon": "window", "title": "Mic or system audio", "desc": "Switch the source between your microphone and system audio. If Screen Recording is denied, microphone mode keeps working."},
+    {"icon": "cpu", "title": "Light and resilient", "desc": "Only block energies are stored, so memory stays small. Capture rebuilds on device or sample rate changes and restarts after sleep."},
+    {"icon": "bolt", "title": "Menu bar text or icon", "desc": "Show the LUFS value in the menu bar or an icon only, choose a 10, 15 or 30 fps refresh rate, and launch at login. Reset and Pause are one click away."}
+  ],
+  "permissions_step": "Grant Microphone access when prompted, or enable LoudnessGlance under System Settings > Privacy & Security > Screen Recording for system audio, then reopen the app.",
+  "faq": [
+    {"q": "Is LoudnessGlance really free and open source?", "a": "Yes. It is released under the MIT license, has no ads or subscriptions, and the full source is on GitHub. If it is useful to you, there is an optional Support button that opens Ko-fi."},
+    {"q": "What permissions does it need?", "a": "Microphone access when the source is Microphone, and Screen Recording when the source is System Audio, because macOS requires it for audio capture. Only audio is used, video frames are discarded, and Accessibility access is never requested."},
+    {"q": "Where is my data stored?", "a": "Nothing is recorded or sent anywhere. Audio is analyzed in memory on your Mac, and only your settings, such as source and target, are saved in local app preferences."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."}
+  ]
+}

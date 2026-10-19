@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu-panel.png","caption":"The menu bar panel with the Microphone/System Audio source picker, loudness target selector, Reset and Pause controls, and a one-click prompt to grant microphone access.","alt":"LoudnessGlance menu bar panel with microphone source selected"},
+  {"file":"02-settings.png","caption":"Settings let you choose a LUFS readout or icon-only menu bar, pick the meter refresh rate, and enable launch at login.","alt":"LoudnessGlance Settings window"},
+  {"file":"03-system-audio.png","caption":"Switching the source to System Audio explains in one line why Screen Recording access is needed and that no video is stored.","alt":"LoudnessGlance panel with System Audio source selected"}
+]

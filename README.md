@@ -1,5 +1,7 @@
 # LoudnessGlance
 
+**🌐 Website:** [turhe123.github.io/loudness-glance](https://turhe123.github.io/loudness-glance/)
+
 A menu bar loudness meter showing LUFS and peak levels of your mic or system audio in real time.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ LoudnessGlance is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu-panel.png" alt="LoudnessGlance menu bar panel with microphone source selected" width="720"></p>
+
+<p align="center"><em>The menu bar panel with the Microphone/System Audio source picker, loudness target selector, Reset and Pause controls, and a one-click prompt to grant microphone access.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="LoudnessGlance Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you choose a LUFS readout or icon-only menu bar, pick the meter refresh rate, and enable launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-system-audio.png" alt="LoudnessGlance panel with System Audio source selected" width="560"></p>
+
+<p align="center"><em>Switching the source to System Audio explains in one line why Screen Recording access is needed and that no video is stored.</em></p>
 
 ## Install
 
